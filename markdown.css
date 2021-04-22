@@ -1,0 +1,57 @@
+body{
+  font-family: "ヒラギノ明朝 ProN W3";
+  font-size: 9pt;
+  /* counter-reset: chapter; */
+}
+
+
+code {
+  font-family: Menlo, Monaco, Consolas, "ＭＳ ゴシック", "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+  font-size: 9px;
+  line-height: 17px;
+} 
+
+h1, h2, h3, h4, h5 {
+  font-family: '游ゴシック体', 'Yu Gothic', YuGothic;
+  /* font-family: 'ヒラギノ角ゴ ProN W3'; */
+}
+h1 {
+  margin-bottom: 45px;
+  border-bottom: 1px solid black;
+}
+h3 {
+  font-weight: bolder;
+}
+h2 {
+	color: #494949;
+	padding: .5em .75em;
+	background-color: #f4f4f4;
+	border-radius: 6px;
+}
+
+
+img {
+  width: 75%;
+  text-align: center;
+  /* margin: 10px auto; */
+}
+
+
+/* h1 {
+  counter-reset: sub-chapter;
+}
+h2 {
+  counter-reset: section;
+}
+h1::before {
+  counter-increment: chapter;
+  content: counter(chapter) ". ";
+}
+h2::before {
+  counter-increment: sub-chapter;
+  content: counter(chapter) "." counter(sub-chapter) ". ";
+}
+h3::before {
+  counter-increment: section;
+  content: counter(chapter) "." counter(sub-chapter) "." counter(section) ". ";
+} */
